@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">FinalAplication</string>
+    <string name="navigation_drawer_open">Open navigation</string>
+    <string name="navigation_drawer_close">Close navigation</string>
+
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_soma">+</string>
+    <string name="btn_divisao">/</string>
+    <string name="btn_subtracao">-</string>
+    <string name="btn_multiplicao">*</string>
+    <string name="btn_apagar">P</string>
+    <string name="btn_igual">=</string>
+    <string name="btn_ponto">,</string>
+
+
+    <string name="txt_titulo">APP Myllene</string>
+    <string name="edit_email">E-mail</string>
+    <string name="edit_senha">Senha</string>
+    <string name="btn_login">Login</string>
+    <string name="txt_register">Registrar</string>
+    <string name="texto">Registrando</string>
+    <string name="btn_registrar">Registrar</string>
+    <string name="btn_ligar">Ligar</string>
+    <string name="btn_asterisco">*</string>
+    <string name="btn_jogovelha">#</string>
+
+
+    <string name="txt_calcular">Calcular Média</string>
+    <string name="txt_nota1">Nota1</string>
+    <string name="txt_nota2">Nota2</string>
+    <string name="txt_nota3">Nota3</string>
+    <string name="txt_nota4">Nota4</string>
+    <string name="txt_resultado">Resultado =</string>
+</resources>

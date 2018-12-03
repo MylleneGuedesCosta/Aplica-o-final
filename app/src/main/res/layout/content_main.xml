@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Btn_pessoal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#154d59"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        style="@style/Animation.AppCompat.DropDownUp"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorAccent"
+        android:checked="false"
+        android:contentDescription="@string/app_name"
+        android:text="ToggleButton"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        android:textOff="DADOS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="156dp"
+        android:layout_height="136dp"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@android:color/transparent"
+        tools:layout_editor_absoluteX="338dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nome"
+        android:inputType="number"
+        android:text="@+id/editText2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Idade"
+        android:inputType="numberDecimal"
+        android:text="@+id/editText3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="316dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</android.support.constraint.ConstraintLayout>
